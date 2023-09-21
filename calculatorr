@@ -122,7 +122,7 @@ class Calculator(QMainWindow):
     def percentclicked(self):
         firsttext = float(self.first.text())
         secondtext = float(self.second.text())
-        self.result.display((firsttext * 100)/secondtext)
+        self.result.display(firsttext *(1/100)* secondtext)
 
 
 
